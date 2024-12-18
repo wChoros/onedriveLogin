@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onedrive Log</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <style>
+        body
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://odc.officeapps.live.com/odc/stat/images/hrd/Background-blurryGradient.svg);
+        }
+        img
+        {
+            width: 500px;
+            align-self: center;
+            margin-top: calc(80vh - 500px);
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://onedrive.live.com/about/en-us/signin/"><img onclick="copy()" src="logo.png" alt="logo onedrive"></a>
+    <script>
+        function copy() 
+        {
+            navigator.clipboard.writeText("wojciech.choros@uczen.zsk.poznan.pl");
+        }
+    </script>
+
+</body>
+</html>
